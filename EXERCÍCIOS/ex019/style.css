@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+body {
+    padding: 30px;
+    background-color: rgb(216, 253, 241);
+    font: normal 16px Arial, sans-serif;
+    
+}
+h1 {
+    color: rgb(87, 100, 96);
+    text-shadow: 1px 1px 3px;
+}
+h1#principal {
+    color: rgb(34, 63, 52);
+    text-align: center;
+}
+h2{
+    color: rgb(22, 97, 73);
+    text-shadow: 1px 1px 3px;
+}
+.basico {
+    color: rgb(19, 199, 34);
+}
+.inter {
+    color: rgb(206, 206, 19);
+}
+.av {
+    color: rgb(241, 33, 33);
+}
+p{
+    text-align: justify;
+    text-indent: 40px;
+    text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.256);
+}
