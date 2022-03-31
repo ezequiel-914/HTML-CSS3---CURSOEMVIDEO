@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: silver;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color: tomato;
+        }
+        thead, tfoot{
+            background-color: tomato;
+            color: white;
+        }
+        table{
+            width: 500px;
+            position: relative;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: rgba(119, 136, 153, 0.338);
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        tfoot>{
+
+        }
+        .num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas Grandes</h1>
+    <!--
+        ANATOMIA DE TABELAS GRANDES
+        TABLE
+            CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+<table>
+    <caption>População das unidades federativas do Brasil.</caption>
+    <thead>
+        <tr>
+            <th scopo="col">Estado</th>
+            <th scopo="col" style="width: 50px;">População</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Sao Paulo</td>
+            <td class="num">46 649 132</td>
+        </tr>
+        <tr>
+            <td>Minas Gerais</td>
+            <td class="num">7866789889</td>
+        </tr>
+        <TR>
+            <td>Rio de Janeiro</td>
+            <td class="num">99788987899</td>
+        </TR>
+        <tr>
+            <td>Alagoas</td>
+            <td class="num">98988499</td>
+        </tr>
+        <tr>
+            <td>Piauí</td>
+            <td class="num">09959588</td>
+        </tr>
+        <tr>
+            <td>mato grosso</td>
+            <td>6458748</td>
+        </tr>
+        <tr>
+            <td>Rio de janeiro</td>
+            <td>3537364777</td>
+        </tr>
+        <tr>
+            <td>brasilia</td>
+            <td>398378478</td>
+
+        </tr>
+        <tr>
+            <td>pernambuco</td>
+            <td>276637738939</td>
+        </tr>
+        <tr>
+            <td>Natal</td>
+            <td>0585859</td>
+        </tr>
+        <tr>
+            <td>Rio grande do norte</td>
+            <td>8564848</td>
+        </tr>
+        <tr>
+            <td>Rio grande do sul</td>
+            <td>8477383388</td>
+        </tr>
+        <tr>
+            <td>curitiba</td>
+            <td>65748489</td>
+        </tr>
+        <tr>
+            <td>foz do iguazu</td>
+            <td>47484848499</td>
+        </tr>
+
+    </tbody>
+    <tfoot>
+        <tr>
+        <th> Total de Habitantes
+            <td scopo="row" class="num">230.000.000</td>
+        </tr>
+
+    </tfoot>
+</table>
+
+
+
+    
+</body>
+</html>
